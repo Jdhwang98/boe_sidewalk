@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "20232024boesidewalku",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2024-03-06T19:06:39.126Z"
+}

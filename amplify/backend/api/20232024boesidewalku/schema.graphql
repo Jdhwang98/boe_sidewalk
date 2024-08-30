@@ -1,0 +1,11 @@
+type Sidewalk @model @auth(rules: [{allow: public}]) {
+  SectionID: Int!
+  x_slope: Float!
+  y_slope: Float!
+  h_displacement: Float!
+  v_displacement: Float!
+  compliance: Boolean!
+  lat: Float!
+  lon: Float!
+}
+ 
