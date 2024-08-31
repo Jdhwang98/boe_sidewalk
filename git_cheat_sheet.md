@@ -1,6 +1,8 @@
 # GIT Commands
 
-**Always do**: `git pull` (when working in teams, updates main)
+**Always do**: `git pull` 
+and 
+`git status`(when working in teams, updates main)
 
 > If you want to work on a new feature, you can create a branch from the “main” repository. It basically creates another copy but in another timeless basically. You can later merge you branch onto the main repository once you’re finished with your feature. Here is how u create a branch:
 
@@ -56,3 +58,17 @@ created)*
 - the command **-a** means “all”
 - The command **-b** means “create a new branch” ex: git checkout -b "branch-name"
 - The command **-u** means “upstream branch” and it allows git to track the branch you created and links it to a branch on github. So now you can do git pull when working on a branch without specifying what branch you want to pull from.
+
+# Python Commands
+### Setting up virtual environment
+1. `python -m venv <acronym_env>`
+
+2. `source <acronym_env/bin/activate>`
+
+- deactivate
+
+> Now you can properly do your package installation in your project folder when you turn on your virtual environment
+
+- `pip install --upgrade`
+
+> after this pip update you can now start installing all the dependencies you need to get started!
