@@ -1,10 +1,10 @@
 # GIT Commands
 
-**Always do**: `git pull` 
+**Always do**: `git pull` (when working in teams, updates main)
 and 
-`git status`(when working in teams, updates main)
+`git status`
 
-> If you want to work on a new feature, you can create a branch from the “main” repository. It basically creates another copy but in another timeline basically. You can later merge you branch onto the main repository once you’re finished with your feature. Here is how u create a branch:
+> If you want to work on a new feature, you can create a branch from the “main” repository. It basically creates another copy but in another timeline basically. You can later merge you branch onto the main repository once you’re finished with your feature. Here is how you create a branch:
 
 1. `git branch "branch-name"` *(recommend branch name to be <initial_featureName>)*
 
