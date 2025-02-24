@@ -35,8 +35,8 @@ function MapContainer(props) {
     let pointsArray = [];
     for (var i = 0; i < props.sidewalkData.length - 1; i++) {
       const coordinate = {
-        lat: props.sidewalkData[i][3],
-        lng: props.sidewalkData[i][4],
+        lat: parseFloat(props.sidewalkData[i][1]),
+        lng: parseFloat(props.sidewalkData[i][2]),
       };
       pointsArray.push(coordinate);
     }
