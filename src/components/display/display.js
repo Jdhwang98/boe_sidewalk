@@ -147,7 +147,7 @@ const Display = (props) => {
               <thead>
                 <tr>
                   <th>Row #</th>
-                  <th>Sidewalk ID</th>
+                  <th>Section ID</th>
                   <th>Cross Slope (°)</th>
                   <th>Running Slope (°)</th>
                   <th>Latitude (°)</th>
